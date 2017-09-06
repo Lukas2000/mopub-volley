@@ -16,10 +16,10 @@
 
 package com.android.volley.toolbox;
 
-import com.android.volley.NetworkResponse;
-import com.android.volley.Response;
-import com.android.volley.toolbox.JsonArrayRequest;
-import com.android.volley.toolbox.JsonObjectRequest;
+import com.mopub.volley.NetworkResponse;
+import com.mopub.volley.Response;
+import com.mopub.volley.toolbox.JsonArrayRequest;
+import com.mopub.volley.toolbox.JsonObjectRequest;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

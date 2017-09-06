@@ -16,6 +16,9 @@
 
 package com.android.volley.toolbox;
 
+import com.mopub.volley.toolbox.ByteArrayPool;
+import com.mopub.volley.toolbox.PoolingByteArrayOutputStream;
+
 import java.io.IOException;
 import java.util.Arrays;
 

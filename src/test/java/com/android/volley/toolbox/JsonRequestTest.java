@@ -16,7 +16,11 @@
 
 package com.android.volley.toolbox;
 
-import com.android.volley.Response;
+import com.mopub.volley.Response;
+import com.mopub.volley.toolbox.JsonArrayRequest;
+import com.mopub.volley.toolbox.JsonObjectRequest;
+import com.mopub.volley.toolbox.JsonRequest;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.Test;

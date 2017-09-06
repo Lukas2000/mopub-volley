@@ -16,9 +16,10 @@
 
 package com.android.volley.toolbox;
 
-import com.android.volley.Request.Method;
+import com.mopub.volley.Request.Method;
 import com.android.volley.mock.MockHttpURLConnection;
 import com.android.volley.mock.TestRequest;
+import com.mopub.volley.toolbox.HurlStack;
 
 import org.junit.Before;
 import org.junit.Test;

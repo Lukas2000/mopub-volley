@@ -5,6 +5,9 @@ import android.util.AttributeSet;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.ImageView.ScaleType;
 
+import com.mopub.volley.toolbox.ImageLoader;
+import com.mopub.volley.toolbox.NetworkImageView;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

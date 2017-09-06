@@ -16,9 +16,9 @@
 
 package com.android.volley.mock;
 
-import com.android.volley.NetworkResponse;
-import com.android.volley.Request;
-import com.android.volley.Response;
+import com.mopub.volley.NetworkResponse;
+import com.mopub.volley.Request;
+import com.mopub.volley.Response;
 
 import java.util.HashMap;
 import java.util.Map;

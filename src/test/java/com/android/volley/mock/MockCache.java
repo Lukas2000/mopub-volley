@@ -16,7 +16,7 @@
 
 package com.android.volley.mock;
 
-import com.android.volley.Cache;
+import com.mopub.volley.Cache;
 
 public class MockCache implements Cache {
 

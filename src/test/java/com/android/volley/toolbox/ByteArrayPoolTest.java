@@ -16,6 +16,8 @@
 
 package com.android.volley.toolbox;
 
+import com.mopub.volley.toolbox.ByteArrayPool;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

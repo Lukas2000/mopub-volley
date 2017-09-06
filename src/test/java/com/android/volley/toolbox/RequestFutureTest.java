@@ -16,7 +16,9 @@
 
 package com.android.volley.toolbox;
 
-import com.android.volley.Request;
+import com.mopub.volley.Request;
+import com.mopub.volley.toolbox.RequestFuture;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;

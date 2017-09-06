@@ -16,7 +16,11 @@
 
 package com.android.volley;
 
-import com.android.volley.Request.Priority;
+import com.mopub.volley.NetworkResponse;
+import com.mopub.volley.Request;
+import com.mopub.volley.Request.Priority;
+import com.mopub.volley.Response;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;

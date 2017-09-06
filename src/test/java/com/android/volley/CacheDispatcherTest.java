@@ -21,6 +21,9 @@ import com.android.volley.mock.MockRequest;
 import com.android.volley.mock.MockResponseDelivery;
 import com.android.volley.mock.WaitableQueue;
 import com.android.volley.utils.CacheTestUtils;
+import com.mopub.volley.Cache;
+import com.mopub.volley.CacheDispatcher;
+import com.mopub.volley.Request;
 
 import org.junit.After;
 import org.junit.Before;

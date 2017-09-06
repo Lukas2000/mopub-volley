@@ -16,10 +16,11 @@
 
 package com.android.volley.toolbox;
 
-import com.android.volley.NetworkResponse;
-import com.android.volley.Request;
-import com.android.volley.Response;
+import com.mopub.volley.NetworkResponse;
+import com.mopub.volley.Request;
+import com.mopub.volley.Response;
 import com.android.volley.mock.MockHttpStack;
+import com.mopub.volley.toolbox.BasicNetwork;
 
 import org.apache.http.ProtocolVersion;
 import org.apache.http.entity.StringEntity;

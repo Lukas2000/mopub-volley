@@ -18,8 +18,10 @@ package com.android.volley.toolbox;
 
 import android.graphics.Bitmap;
 import android.widget.ImageView;
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
+import com.mopub.volley.Request;
+import com.mopub.volley.RequestQueue;
+import com.mopub.volley.toolbox.ImageLoader;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

@@ -16,9 +16,10 @@
 
 package com.android.volley.toolbox;
 
-import com.android.volley.Request.Method;
+import com.mopub.volley.Request.Method;
 import com.android.volley.mock.TestRequest;
-import com.android.volley.toolbox.HttpClientStack.HttpPatch;
+import com.mopub.volley.toolbox.HttpClientStack;
+import com.mopub.volley.toolbox.HttpClientStack.HttpPatch;
 
 import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;

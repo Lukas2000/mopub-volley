@@ -16,8 +16,10 @@
 
 package com.android.volley.toolbox;
 
-import com.android.volley.Cache;
-import com.android.volley.NetworkResponse;
+import com.mopub.volley.Cache;
+import com.mopub.volley.NetworkResponse;
+import com.mopub.volley.toolbox.BasicNetwork;
+import com.mopub.volley.toolbox.HttpHeaderParser;
 
 import org.apache.http.Header;
 import org.apache.http.message.BasicHeader;

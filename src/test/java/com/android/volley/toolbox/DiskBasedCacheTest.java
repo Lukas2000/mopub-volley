@@ -16,8 +16,9 @@
 
 package com.android.volley.toolbox;
 
-import com.android.volley.Cache;
-import com.android.volley.toolbox.DiskBasedCache.CacheHeader;
+import com.mopub.volley.Cache;
+import com.mopub.volley.toolbox.DiskBasedCache;
+import com.mopub.volley.toolbox.DiskBasedCache.CacheHeader;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;

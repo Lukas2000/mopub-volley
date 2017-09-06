@@ -16,10 +16,10 @@
 
 package com.android.volley.toolbox;
 
-import com.android.volley.Cache;
-import com.android.volley.NetworkResponse;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
+import com.mopub.volley.Cache;
+import com.mopub.volley.NetworkResponse;
+import com.mopub.volley.Response;
+import com.mopub.volley.VolleyError;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;

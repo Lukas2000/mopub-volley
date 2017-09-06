@@ -16,7 +16,14 @@
 
 package com.android.volley.toolbox;
 
-import com.android.volley.*;
+import com.mopub.volley.Cache;
+import com.mopub.volley.NetworkResponse;
+import com.mopub.volley.Request;
+import com.mopub.volley.RequestQueue;
+import com.mopub.volley.Response;
+import com.mopub.volley.RetryPolicy;
+import com.mopub.volley.VolleyError;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;

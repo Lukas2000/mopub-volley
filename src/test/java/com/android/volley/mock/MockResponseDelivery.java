@@ -16,10 +16,10 @@
 
 package com.android.volley.mock;
 
-import com.android.volley.Request;
-import com.android.volley.Response;
-import com.android.volley.ResponseDelivery;
-import com.android.volley.VolleyError;
+import com.mopub.volley.Request;
+import com.mopub.volley.Response;
+import com.mopub.volley.ResponseDelivery;
+import com.mopub.volley.VolleyError;
 
 public class MockResponseDelivery implements ResponseDelivery {
 

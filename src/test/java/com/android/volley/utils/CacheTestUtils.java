@@ -2,7 +2,7 @@
 
 package com.android.volley.utils;
 
-import com.android.volley.Cache;
+import com.mopub.volley.Cache;
 
 import java.util.Random;
 

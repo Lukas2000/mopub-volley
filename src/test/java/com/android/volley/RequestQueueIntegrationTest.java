@@ -16,11 +16,17 @@
 
 package com.android.volley;
 
-import com.android.volley.Request.Priority;
-import com.android.volley.RequestQueue.RequestFinishedListener;
+import com.mopub.volley.Network;
+import com.mopub.volley.NetworkResponse;
+import com.mopub.volley.Request;
+import com.mopub.volley.Request.Priority;
+import com.mopub.volley.RequestQueue;
+import com.mopub.volley.RequestQueue.RequestFinishedListener;
 import com.android.volley.mock.MockRequest;
 import com.android.volley.mock.ShadowSystemClock;
-import com.android.volley.toolbox.NoCache;
+import com.mopub.volley.ResponseDelivery;
+import com.mopub.volley.VolleyError;
+import com.mopub.volley.toolbox.NoCache;
 import com.android.volley.utils.ImmediateResponseDelivery;
 import org.junit.Before;
 import org.junit.Test;
@@ -30,12 +36,6 @@ import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import java.util.concurrent.Semaphore;
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;

@@ -16,11 +16,11 @@
 
 package com.android.volley.mock;
 
-import com.android.volley.NetworkResponse;
-import com.android.volley.Request;
-import com.android.volley.Response;
-import com.android.volley.Response.ErrorListener;
-import com.android.volley.VolleyError;
+import com.mopub.volley.NetworkResponse;
+import com.mopub.volley.Request;
+import com.mopub.volley.Response;
+import com.mopub.volley.Response.ErrorListener;
+import com.mopub.volley.VolleyError;
 import com.android.volley.utils.CacheTestUtils;
 
 import java.util.HashMap;
